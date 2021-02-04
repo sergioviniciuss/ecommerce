@@ -17,13 +17,3 @@ export const Basic: Story = () => (
     )}
   />
 )
-
-export const Secondary: Story = () => (
-  <Main
-    title={text('Title', 'Advanced React 123')}
-    description={text(
-      'Description',
-      'Typescript, ReactJS, NextJS and Styled Components'
-    )}
-  />
-)
