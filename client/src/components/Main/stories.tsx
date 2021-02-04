@@ -5,8 +5,8 @@ export default {
   title: 'Main',
   component: Main,
   args: {
-    title: 'default description',
-    description: 'default description'
+    title: 'Advanced React',
+    description: 'Typescript, ReactJS, NextJS and Styled Components'
   }
 } as Meta
 
