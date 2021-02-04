@@ -3,17 +3,23 @@ import Main from '.'
 
 export default {
   title: 'Main',
-  component: Main
+  component: Main,
+  args: {
+    title: 'default description',
+    description: 'default description'
+  }
 } as Meta
 
 export const Default: Story = (args) => <Main {...args} />
-Default.args = {
-  title: 'title default',
-  description: 'description default'
+
+export const Primary: Story = (args) => <Main {...args} />
+Primary.args = {
+  title: 'title primary',
+  description: 'description primary'
 }
 
-export const Basic: Story = (args) => <Main {...args} />
-Basic.args = {
-  title: 'title basic',
-  description: 'description basic'
+export const Secondary: Story = (args) => <Main {...args} />
+Secondary.args = {
+  title: 'title secondary',
+  description: 'description secondary'
 }
